@@ -34,4 +34,4 @@ else
   exit 2
 fi
 
-"$ORCA_BIN" "$INPUT_FILE" > "$BASENAME.out"
+"$ORCA_BIN" "$INPUT_ABS" > "$JOB_DIR/$BASENAME.out"
