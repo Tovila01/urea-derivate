@@ -40,12 +40,16 @@ RWTH's ORCA page says:
 The ORCA Slurm template is:
 - `cluster_templates/submit_orca.slurm`
 
-Important on RWTH: the batch script now prefers the known RWTH ORCA 5.0.4 binary path directly, and falls back to `orca`/`$ORCA` if available.
-You can still verify interactively with:
+Important on RWTH: ORCA needs the full module-provided runtime environment (libraries as well as the executable).
+Before submission, do:
 ```bash
 module load ORCA/5.0.4
 which orca
 echo $ORCA
+```
+Then submit with exported environment:
+```bash
+sbatch --export=ALL cluster_templates/submit_orca.slurm <input.inp>
 ```
 
 ## Recommended Git workflow
