@@ -11,7 +11,7 @@
 set -euo pipefail
 
 module purge
-module load ORCA
+module load ORCA/5.0.4
 
 INPUT="${1:-}"
 if [ -z "$INPUT" ]; then

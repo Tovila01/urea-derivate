@@ -28,9 +28,9 @@ Then extend from thymine to uracil and later to the urea derivative.
 RWTH's ORCA page says:
 - you need to be in the `orca` user group
 - you must accept the ORCA EULA first
-- after access is granted, load with:
+- after access is granted, load with the exact available version, e.g. on RWTH currently:
   ```bash
-  module load ORCA
+  module load ORCA/5.0.4
   ```
 - available versions can be checked with:
   ```bash
