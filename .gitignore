@@ -1,0 +1,30 @@
+# macOS / Finder junk
+.DS_Store
+._*
+
+# Gaussian scratch / binary / large files
+*.chk
+*.fchk
+*.rwf
+*.int
+*.d2e
+*.skr
+*.scr
+*.cub
+*.wfx
+*.wfn
+fort.*
+
+# Scheduler stdout/stderr
+*.o
+*.e
+slurm-*.out
+
+# Optional: keep logs out by default if they get too large
+# Uncomment if needed
+# *.log
+# *.out
+
+# Python / shell noise
+__pycache__/
+*.pyc

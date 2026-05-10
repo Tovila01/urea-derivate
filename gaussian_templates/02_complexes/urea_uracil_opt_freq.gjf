@@ -1,0 +1,9 @@
+%chk=urea_uracil.chk
+%mem=8GB
+%nprocshared=8
+#p B3LYP/6-31+G(d,p) Opt Freq
+
+Urea-uracil complex optimization and frequency
+
+0 1
+<insert urea-uracil complex coordinates>

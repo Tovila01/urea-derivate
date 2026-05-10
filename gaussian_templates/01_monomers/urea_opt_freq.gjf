@@ -1,0 +1,16 @@
+%chk=urea.chk
+%mem=8GB
+%nprocshared=8
+#p B3LYP/6-31+G(d,p) Opt Freq
+
+Urea monomer optimization and frequency
+
+0 1
+C      x1   y1   z1
+O      x2   y2   z2
+N      x3   y3   z3
+H      x4   y4   z4
+H      x5   y5   z5
+N      x6   y6   z6
+H      x7   y7   z7
+H      x8   y8   z8
