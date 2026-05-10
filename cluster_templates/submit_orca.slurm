@@ -19,7 +19,12 @@ if [ -z "$INPUT" ]; then
   exit 1
 fi
 
-BASENAME="${INPUT%.inp}"
+INPUT_ABS="$(readlink -f "$INPUT")"
+JOB_DIR="$(dirname "$INPUT_ABS")"
+INPUT_FILE="$(basename "$INPUT_ABS")"
+BASENAME="${INPUT_FILE%.inp}"
 
-# RWTH documentation says the executable is available as $ORCA after module load.
-"$ORCA" "$INPUT" > "$BASENAME.out"
+cd "$JOB_DIR"
+
+# Write ORCA output next to the input file.
+"$ORCA" "$INPUT_FILE" > "$BASENAME.out"
