@@ -10,9 +10,6 @@
 
 set -euo pipefail
 
-module purge
-module load ORCA/5.0.4
-
 INPUT="${1:-}"
 if [ -z "$INPUT" ]; then
   echo "Usage: sbatch submit_orca.slurm <input.inp>"
@@ -26,5 +23,15 @@ BASENAME="${INPUT_FILE%.inp}"
 
 cd "$JOB_DIR"
 
-# Write ORCA output next to the input file.
-"$ORCA" "$INPUT_FILE" > "$BASENAME.out"
+# Expect ORCA to be loaded before submission, e.g.:
+#   module load ORCA/5.0.4
+if command -v orca >/dev/null 2>&1; then
+  ORCA_BIN="$(command -v orca)"
+elif [ -n "${ORCA:-}" ] && [ -x "${ORCA}" ]; then
+  ORCA_BIN="${ORCA}"
+else
+  echo "ORCA executable not found. Load ORCA before sbatch, e.g. module load ORCA/5.0.4" >&2
+  exit 2
+fi
+
+"$ORCA_BIN" "$INPUT_FILE" > "$BASENAME.out"
