@@ -33,7 +33,8 @@ Protocol aligned to:
 
 ## Notes
 
-- Coordinates are placeholders unless explicitly filled in.
+- Monomer coordinates are now filled with PubChem 3D starter geometries.
+- Complex coordinates are filled with approximate hydrogen-bonded starter arrangements intended for optimization, not exact reproductions of the paper's final motifs.
 - For strict paper reproduction, include thymine.
 - For RNA extension, include uracil.
 - Use the optimized complex geometry for the counterpoise job.
