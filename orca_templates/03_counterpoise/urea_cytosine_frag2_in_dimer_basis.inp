@@ -1,4 +1,7 @@
-! B3LYP "6-31+G(d,p)" TightSCF SP
+! B3LYP TightSCF SP
+%basis
+  Basis "6-31+G(d,p)"
+end
 %pal
   nprocs 8
 end
