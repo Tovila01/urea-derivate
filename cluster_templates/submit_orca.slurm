@@ -23,14 +23,16 @@ BASENAME="${INPUT_FILE%.inp}"
 
 cd "$JOB_DIR"
 
-# Expect ORCA to be loaded before submission, e.g.:
-#   module load ORCA/5.0.4
-if command -v orca >/dev/null 2>&1; then
+RWTH_ORCA_BIN="/cvmfs/restricted.hpc.rwth.de/Linux/RH9/x86_64/ISV/ORCA/5.0.4-gompi-2022a/bin/orca"
+
+if [ -x "$RWTH_ORCA_BIN" ]; then
+  ORCA_BIN="$RWTH_ORCA_BIN"
+elif command -v orca >/dev/null 2>&1; then
   ORCA_BIN="$(command -v orca)"
 elif [ -n "${ORCA:-}" ] && [ -x "${ORCA}" ]; then
   ORCA_BIN="${ORCA}"
 else
-  echo "ORCA executable not found. Load ORCA before sbatch, e.g. module load ORCA/5.0.4" >&2
+  echo "ORCA executable not found." >&2
   exit 2
 fi
 
