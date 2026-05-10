@@ -15,6 +15,15 @@
 *.wfn
 fort.*
 
+# ORCA binaries / scratch / large files
+*.gbw
+*.densities
+*.hess
+*.property.txt
+*.engrad
+*.opt
+orca_job.*
+
 # Scheduler stdout/stderr
 *.o
 *.e

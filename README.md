@@ -16,11 +16,29 @@ Then extend from thymine to uracil and later to the urea derivative.
 ## Current structure
 
 - `gaussian_templates/` – Gaussian input templates
+- `orca_templates/` – ORCA input templates
 - `cluster_templates/` – cluster submission templates
 - `scripts/` – helper scripts
 - `jobs/` – concrete run folders for submitted calculations
 - `results/` – extracted energies/tables/summaries
 - `docs/` – notes and protocol details
+
+## ORCA on RWTH
+
+RWTH's ORCA page says:
+- you need to be in the `orca` user group
+- you must accept the ORCA EULA first
+- after access is granted, load with:
+  ```bash
+  module load ORCA
+  ```
+- available versions can be checked with:
+  ```bash
+  module spider ORCA
+  ```
+
+The ORCA Slurm template is:
+- `cluster_templates/submit_orca.slurm`
 
 ## Recommended Git workflow
 
