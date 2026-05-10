@@ -3,7 +3,7 @@
   Basis "6-31+G(d,p)"
 end
 %pal
-  nprocs 8
+  nprocs 1
 end
 %maxcore 1000
 
