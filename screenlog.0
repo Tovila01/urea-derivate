@@ -1,0 +1,174 @@
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/uracil_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/urea_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/urea_uracil_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/urea_adenine_opt_freq
+Cannot exec './scripts/watch_orca_queue.sh': Permission denied
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/dimethylurea_uracil_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/urea_cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/guanine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/urea_guanine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/thymine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/urea_thymine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/dimethylurea_adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/formamide_adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/methylurea_adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/thiourea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/urea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/dimethylurea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/formamide_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/methylurea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/dimethylurea_adenine_opt_freq
+./scripts/run_orca_parallel_queue.sh: line 47: alive[@]: unbound variable
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/formamide_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/methylurea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/dimethylurea_adenine_opt_freq
+./scripts/run_orca_parallel_queue.sh: line 47: alive[@]: unbound variable
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Running job: ./{}
+Running job: ./{}
+Running job: ./{}
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+[file orca_main/run.cpp, line 393]: Cannot open input file: {}
+
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/urea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/thiourea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/methylurea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/dimethylurea_adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/thiourea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/dimethylurea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/formamide_adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/methylurea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/urea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/formamide_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/urea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/thiourea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/methylurea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/dimethylurea_adenine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/thiourea_cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/dimethylurea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/adenine/formamide_adenine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/methylurea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/urea_cytosine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/cytosine/formamide_cytosine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/formamide_guanine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/urea_guanine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/methylurea_guanine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/guanine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/thiourea_guanine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/guanine/dimethylurea_guanine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/urea_thymine_opt_freq
+Skipping completed job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/thymine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/methylurea_thymine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/thiourea_thymine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/dimethylurea_thymine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/thymine/formamide_thymine_opt_freq
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/methylurea_uracil_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/thiourea_uracil_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/formamide_uracil_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/uracil_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/urea_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/urea_uracil_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
+Running job: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea/dimethylurea_uracil_opt_freq
+_: line 14: cd: /Users/tomvincent/Downloads/RWTH Studium/Chemie/Master 3. Semester/Trinity College Dublin/DFT/urea-derivate/jobs/uracil urea: No such file or directory
