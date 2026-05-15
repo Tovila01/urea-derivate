@@ -1,0 +1,19 @@
+! M05-2X TightSCF Opt Freq CPCM(Water)
+%basis
+  Basis "6-311+G(d,p)"
+end
+%pal
+  nprocs 2
+end
+%maxcore 1000
+
+# Adapted from gas-phase input to the Blanco et al. PCM-water/M05-2X style
+* xyz 0 1
+
+N       0.963894     -0.124334     -0.104601
+C       0.235483     -1.073342     -0.748824
+O      -0.985112     -1.088133     -0.758865
+H       0.465665      0.604132      0.389910
+H       1.973631     -0.120195     -0.101791
+H       0.859535     -1.824764     -1.258918
+*
