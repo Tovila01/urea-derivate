@@ -1,6 +1,6 @@
 # Search for urea derivate
 
-This folder is prepared for a Git-based Gaussian workflow with local editing and RWTH cluster execution.
+This folder is prepared for an ORCA workflow with local editing and RWTH cluster execution.
 
 ## Goal
 
@@ -15,13 +15,17 @@ Then extend from thymine to uracil and later to the urea derivative.
 
 ## Current structure
 
-- `gaussian_templates/` – Gaussian input templates
-- `orca_templates/` – ORCA input templates
+- `orca_templates/by_base/` – ORCA templates grouped by nucleic-acid base
+- `orca_templates/ligands/` – isolated ligand/urea ORCA templates
 - `cluster_templates/` – cluster submission templates
 - `scripts/` – helper scripts
-- `jobs/` – concrete run folders for submitted calculations
-- `results/` – extracted energies/tables/summaries
+- `jobs/` – concrete ORCA run folders grouped by base or ligand
+- `outputs/` – extracted energies/tables/summaries
 - `docs/` – notes and protocol details
+
+The nucleic-acid monomers are kept with their related complexes:
+- `jobs/adenine/adenine_opt_freq.*` lives beside `jobs/adenine/*_adenine_opt_freq.*`
+- the same pattern is used for cytosine, guanine, thymine, and uracil
 
 ## ORCA on RWTH
 
@@ -68,26 +72,25 @@ sbatch --export=ALL cluster_templates/submit_orca.slurm <input.inp>
    cd urea-derivate
    git pull
    ```
-3. Create a concrete job folder under `jobs/`.
-4. Copy the needed `.gjf` input there.
+3. Create or reuse a concrete job folder under `jobs/<base>/` or `jobs/ligands/`.
+4. Copy the needed `.inp` input there.
 5. Submit with the cluster submit script template.
 6. After completion, either:
    - commit back selected outputs/summaries, or
-   - copy only the important results into `results/` and commit those.
+   - copy only the important results into `outputs/` and commit those.
 
-## Important note on large Gaussian files
+## Important note on large ORCA files
 
 Do not blindly commit everything.
 Usually commit:
-- `.gjf`
-- small `.log` files if needed
+- `.inp`
+- small `.out` files if needed
 - extracted text summaries / CSV tables
 - submission scripts
 
 Usually ignore:
-- `.chk`
-- `.rwf`
-- `.scr`
+- scratch files
+- temporary density/potential files
 - very large raw scratch/output files
 
 See `.gitignore`.
